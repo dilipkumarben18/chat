@@ -18,7 +18,7 @@ const databaseURL = process.env.DATABASE_URL;
 
 app.use(
   cors({
-    origin: ["https://chat-app-2cb53.web.app"],
+    origin: "https://chat-app-2cb53.web.app",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
   })
